@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text|Nunito|Rubik&display=swap" rel="stylesheet">
+  <title>Home</title>
+  <style>
+    .container{
+      display: grid;
+      grid-template-columns: 150px auto auto 150px;
+      grid-template-rows:100px auto;
+      grid-row-gap: 35px;
+    }
+
+    .title{
+      grid-column:2/3;
+      grid-row:1/2;
+      justify-self:start;
+      align-self: end;
+      font-size: 20px;
+      padding:14px 0px;
+      color: gray;
+      font-family: 'Nunito', sans-serif;
+    }
+
+    .nav{
+      grid-column:3/4;
+      grid-row:1/2;
+      justify-self: end;
+      align-self: end;
+
+    }
+
+    .nav a {
+    font-family: 'Nunito', sans-serif;
+    font-style: bold;
+    float: left;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    }
+
+    .nav a:hover {
+    color: blue;
+    }
+
+    .nav a.active {
+    color: black;
+    }
+
+    .bio{
+      grid-column:2/4;
+      grid-row:2/3;
+      justify-self: center;
+      align-self: center;
+      font-family: 'Nunito', sans-serif;
+      font-size: 60px;
+
+    }
+
+    </style>
+
+
+
+</head>
+
+<body>
+<div class="container">
+  <div class = "title">
+    isabel ling
+  </div>
+  <div class = "nav">
+    <a class = "active" href = "#home"> home </a>
+    <a href = "writing.html"> writing </a>
+    <a href = "art.html"> art </a>
+  </div>
+  <div class = "bio">
+    Isabel Ling is figuring it out. An urbanist, writer and technologist she is interested in civic technology and community engagement. She writes about the internet, culture and Asian American identity.
+  </div>
+</div>
+
+
+
+
+</body>
